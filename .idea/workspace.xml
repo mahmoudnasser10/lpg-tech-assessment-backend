@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d413672d-7aed-41d6-ac7d-a48ec9800f90" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1o9k3wtRjaJlY5PdtVvQWB72zfZ" />
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/data" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/lpg/service" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Maven.run">
+    <configuration name="ProductPullTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lpg-tech-assessment-backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lpg.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lpg.service" />
+      <option name="MAIN_CLASS_NAME" value="com.lpg.service.ProductPullTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductPullTest.verifyCategoriesFileColumns" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lpg-tech-assessment-backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lpg.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lpg.service" />
+      <option name="MAIN_CLASS_NAME" value="com.lpg.service.ProductPullTest" />
+      <option name="METHOD_NAME" value="verifyCategoriesFileColumns" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductPullTest.verifyProductsFileColumns" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lpg-tech-assessment-backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lpg.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lpg.service" />
+      <option name="MAIN_CLASS_NAME" value="com.lpg.service.ProductPullTest" />
+      <option name="METHOD_NAME" value="verifyProductsFileColumns" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="install" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="install" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="run" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="jetty:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Maven.install" />
+      <item itemvalue="Maven.run" />
+      <item itemvalue="JUnit.ProductPullTest" />
+      <item itemvalue="JUnit.ProductPullTest.verifyProductsFileColumns" />
+      <item itemvalue="JUnit.ProductPullTest.verifyCategoriesFileColumns" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ProductPullTest.verifyCategoriesFileColumns" />
+        <item itemvalue="JUnit.ProductPullTest.verifyProductsFileColumns" />
+        <item itemvalue="JUnit.ProductPullTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d413672d-7aed-41d6-ac7d-a48ec9800f90" name="Default Changelist" comment="" />
+      <created>1612705997094</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612705997094</updated>
+    </task>
+    <servers />
+  </component>
+</project>
