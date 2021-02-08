@@ -9,7 +9,6 @@ public class Product {
     private String creationDate;
     private String updateDate;
     private String lastPurchasedDate;
-
     private String categoryName;
 
     public String getId() {

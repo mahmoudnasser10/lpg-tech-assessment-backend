@@ -16,7 +16,7 @@ ID,NAME,DESCRIPTION,CATEGORY_ID,CREATION_DATE,UPDATE_DATE,LAST_PURCHASED_DATE
 15,Sofas,"Sofas galore, they're super soft and comfortable.",3,9/20/2020 0:01,9/20/2020 0:01,10/28/2020 0:01
 16,Coffee Tables,Keep your coffee safe and stick it on one of these tables.,3,9/20/2020 0:01,9/20/2020 0:01,10/28/2020 0:01
 17,Monoblocks,Lovely paving slabs which look great anywhere!,3,9/20/2020 0:01,9/20/2020 0:01,10/24/2020 0:01
-18,Footstool,"Pop your feet up, you've earned it.",3,9/20/2020 0:01,9/20/2020 0:01,10/12/2020 0:01
+18,Footstool,"Pop your feet up, you've earned it.",3,9/20/2020 0:01,9/20/2020 0:01,10/12/2020 00:01
 19,Armchair,"Its a chair, but for you arms.",3,9/20/2020 0:01,9/20/2020 0:01,9/28/2020 0:01
 20,5 Chest Drawer,So many drawers.,3,9/20/2020 0:01,9/20/2020 0:01,10/27/2020 0:01
 21,3 Chest Drawer,Not so many drawers.,3,9/20/2020 0:01,9/20/2020 0:01,10/27/2020 0:01
@@ -33,3 +33,9 @@ ID,NAME,DESCRIPTION,CATEGORY_ID,CREATION_DATE,UPDATE_DATE,LAST_PURCHASED_DATE
 32,Shower Head,Heads for your shower.,5,9/20/2020 0:01,9/20/2020 0:01,9/28/2020 0:01
 33,Drain Plug,A high quality drain plug.,5,9/20/2020 0:01,9/20/2020 0:01,10/27/2020 0:01
 34,Towel Rack,Hang your towels here.,5,9/20/2020 0:01,9/20/2020 0:01,10/28/2020 0:01
+35,test,myDesc,1,02/08/2021 14:53,02/08/2021 14:53,N/A
+36,Product,Desc,3,02/08/2021 15:01,02/08/2021 15:01,N/A
+37,,,,02/08/2021 15:02,02/08/2021 15:02,N/A
+38,,,,02/08/2021 15:02,02/08/2021 15:02,N/A
+39,Product,Desc,1,02/08/2021 15:02,02/08/2021 15:02,N/A
+40,Product,Desc,1,02/08/2021 15:36,02/08/2021 15:36,N/A

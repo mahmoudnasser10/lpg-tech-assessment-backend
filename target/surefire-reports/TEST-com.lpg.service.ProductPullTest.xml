@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="3" failures="0" name="com.lpg.service.ProductPullTest" time="0.012" errors="0" skipped="0">
+<testsuite tests="3" failures="0" name="com.lpg.service.ProductPullTest" time="0.013" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="11.0.4+10-b304.77"/>
@@ -61,7 +61,7 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="com.lpg.service.ProductPullTest" name="verifyDocumentsExist" time="0.002"/>
-  <testcase classname="com.lpg.service.ProductPullTest" name="verifyProductsFileColumns" time="0.01"/>
-  <testcase classname="com.lpg.service.ProductPullTest" name="verifyCategoriesFileColumns" time="0"/>
+  <testcase classname="com.lpg.service.ProductPullTest" name="verifyCategoriesFileColumns" time="0.013"/>
+  <testcase classname="com.lpg.service.ProductPullTest" name="verifyDocumentsExist" time="0"/>
+  <testcase classname="com.lpg.service.ProductPullTest" name="verifyProductsFileColumns" time="0"/>
 </testsuite>
