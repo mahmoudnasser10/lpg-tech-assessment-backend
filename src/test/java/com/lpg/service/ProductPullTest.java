@@ -1,15 +1,19 @@
 package com.lpg.service;
 
+import com.lpg.model.Product;
 import com.lpg.util.Constants;
+import com.lpg.util.TestConstants;
 import com.opencsv.CSVReader;
 import com.opencsv.exceptions.CsvValidationException;
 import org.junit.Assert;
 import org.junit.Test;
 
+import javax.ws.rs.core.Response;
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 public class ProductPullTest {
 
@@ -56,4 +60,33 @@ public class ProductPullTest {
         Assert.assertEquals("ID", columnNames[0]);
         Assert.assertEquals("CATEGORY_NAME", columnNames[1]);
     }
+
+    @Test
+    public void verifySuccessfulRequest() throws IOException, CsvValidationException {
+        // Given
+        ProductPull productPull = new ProductPull();
+
+        // When
+        Response response = productPull.getProducts();
+
+        // Then
+        Assert.assertEquals(response.toString(), 200, response.getStatus());
+    }
+
+    @Test
+    public void verifyCsvReadSuccess() throws IOException, CsvValidationException {
+        // Given
+        CsvLogic csvLogic = new CsvLogic();
+        List<Product> products;
+        String productsFile = TestConstants.TEST_PRODUCTS_FILE_LOCATION;
+        String categoriesFile = TestConstants.TEST_CATEGORIES_FILE_LOCATION;
+
+        // When
+        products = csvLogic.read(productsFile, categoriesFile);
+
+        // Then
+        Assert.assertNotNull(products);
+    }
+
+    // TODO: test error scenarios
 }

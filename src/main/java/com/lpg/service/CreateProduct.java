@@ -14,6 +14,17 @@ import java.io.*;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
+/*
+    METHOD: POST
+    EXPECTED BODY:
+    {
+        "name":"{name}}",
+        "categoryName":"{categoryName}",
+        "description":"{description}"
+    }
+    METHOD-TYPE: Application/json
+*/
+
 @Path("products/create")
 public class CreateProduct {
 
@@ -21,42 +32,12 @@ public class CreateProduct {
     @Consumes(MediaType.APPLICATION_JSON)
     public Response createProduct(Product product) throws IOException, CsvValidationException {
 
+        CsvLogic csvLogic = new CsvLogic();
+
         String productsFile = Constants.PRODUCTS_FILE_LOCATION;
         String categoriesFile = Constants.CATEGORIES_FILE_LOCATION;
 
-        CSVReader categoryReader = new CSVReader(new FileReader(categoriesFile));
-        CSVReader productReader = new CSVReader(new FileReader(productsFile));
-
-        String lastId = "";
-        String categoryId = "";
-
-        String [] eachProductColumn;
-        String [] eachCategoryColumn;
-
-        // Get the category Id from the category name provided
-        while ((eachCategoryColumn = categoryReader.readNext()) != null) {
-            if (product.getCategoryName().toLowerCase().equalsIgnoreCase(eachCategoryColumn[1])) {
-                categoryId = eachCategoryColumn[0];
-            }
-        }
-
-        // TODO: iterate over the csv file in reverse
-        while ((eachProductColumn = productReader.readNext()) != null) {
-            lastId = eachProductColumn[0];
-        }
-
-        Integer id = Integer.parseInt(lastId) + 1;
-        DateTimeFormatter dtf = DateTimeFormatter.ofPattern("MM/dd/yyyy HH:mm");
-        LocalDateTime creationAndUpdateDate = LocalDateTime.now();
-
-        BufferedWriter writer = new BufferedWriter(new FileWriter(productsFile, true));
-
-        writer.newLine();
-        writer.write(id + "," + product.getName() + ","
-                + product.getDescription() + "," + categoryId +
-                "," + dtf.format(creationAndUpdateDate) + ","
-                + dtf.format(creationAndUpdateDate) + "," + "N/A");
-        writer.close();
+        csvLogic.write(product, productsFile, categoriesFile);
 
         return Response.status(200).build();
     }
